@@ -1,0 +1,18 @@
+{
+  "name": "ual-fake-metamask",
+  "version": "0.3.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && tsc --build tsconfig.json",
+    "prepare": "yarn build"
+  },
+  "dependencies": {
+    "eosjs": "20.0.3",
+    "universal-authenticator-library": "0.3.0"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.8.7",
+    "typescript": "^3.8.3"
+  }
+}
